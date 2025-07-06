@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      <h1 id="title">MY FIRST PROJECT SURVEY FORM</h1>
+      </title>
+      <link rel="stylesheet" href="web.css">
+      </head>
+      <body>
+        <h1 id="title">MY FIRST PROJECT SURVEY FORM</h1>
+        <p id="description">Fill out the required information for the below form</p>
+        <form id="survey-form" method="post">
+          <fieldset>
+          <label id="name-label">Name<input type="text" id="name" placeholder="Enter your name" required></label><br>
+          <label id="email-label">Email<input type="email" id="email"placeholder="Enter your email" required></label><br>
+          <label id="number-label">Age<input id="number" type="number" placeholder="Enter your age" min="13" max="120"></label><br>
+          </fieldset>
+          <fieldset>
+            <label>
+              Which of the following is you?<br>
+          <select id="dropdown">
+            <option value="">Select your current role</option>
+            <option value="1">student</option>
+            <option value="2">beginner to learn</option>
+            <option value="3">part time job</option>
+            <option value="4">full time</option>
+            <option value="5">other</option>
+            </select>
+            </label>
+            </fieldset>
+            <fieldset>
+
+            <label>Would you recommend freecodecamp to others?</label><br>
+            <label for="yes"><input value="yes" name="radio" type="radio" class="inline">YES</label><br>
+            <label for="no"><input value="no" name="radio" type="radio" class="inline">NO</label><br>
+            <label for="may or may not"><input value="may or maynot" name="radio" type="radio" class="inline">MAY OR MAYNOT</label><br>
+            <label>what did you like about freecodecamp?<br>
+              <select id="dropdown">
+                <option value="">select any one</option>
+                <option value="1">learning</option>
+                <option value="2">challenges</option>
+                <option value="3">projects</option>
+                </select>
+                </label>
+                <label>what improvements you need in our freecodecamp?(choose the below options)</label><br>
+                <label><input value="challenges" name="challenges" type="checkbox" class="inline">Challenges</label><br>
+                <label><input value="projects" name="projects" type="checkbox" class="inline">Projects</label><br>
+                <label><input value="wed design" name="web design" type="checkbox" class="inline">Web design</label><br>
+                <label><input value="front-end-projects" name="front-end-projects" type="checkbox" class="inline">Front-end-projects</label><br>
+                <label><input value="back-end-projects" name="back-end-projects" type="checkbox" class="inline">Back-end-projects</label><br>
+                <label><input value="forum" name="forum" type="checkbox" class="inline">Forum</label><br>
+                </fieldset>
+                <fieldset>
+                  <label>Any Comments or Suggestions?<br>
+                    <textarea placeholder="Enter Your Comments Here...."></textarea>
+                    </label><br>
+                    <button id="submit">Submit</button>
+                    </fieldset>
+                    </form>
+                    </body>
+                    </html>
+                
